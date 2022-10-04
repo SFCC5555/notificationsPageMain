@@ -59,7 +59,7 @@ h1 {
   font-size: 2rem;
 }
 
-h3 {
+h2 {
   font-size: 1.6rem;
   font-weight: 300;
   color: var(--grayishBlue);
@@ -166,7 +166,7 @@ p {
   box-shadow: 0px 0px 2.5px var(--red);
 }
 
-h3:hover, .userName:hover, .postName:hover {
+h2:hover, .userName:hover, .postName:hover {
   color: var(--blue);
   cursor: pointer;
 }

@@ -109,6 +109,7 @@ function renderNotifications()
 
         profilePictureCard=document.createElement("img");
         profilePictureCard.setAttribute("src",notification.profilePicture);
+        profilePictureCard.setAttribute("alt","Profile Picture");
 
         textCard=document.createElement("section");
         textCard.setAttribute("class","text");
@@ -141,6 +142,7 @@ function renderNotifications()
         pictureCard=document.createElement("img");
         pictureCard.setAttribute("class","picture");
         pictureCard.setAttribute("src",notification.picture);
+        pictureCard.setAttribute("alt","Picture");
 
 
         notificationsContainer.appendChild(notificationCard);
