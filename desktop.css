@@ -1,11 +1,11 @@
 body {
-    background-color: var(--lightGrayishBlue2);
+    background-color: var(--veryLightGrayishBlue);
     padding-top: 60px;
 }
 
 main {
     width: 75%;
-    max-width: 675px;
+    max-width: 680px;
     border-radius: 10px;
     padding: 20px;
 }

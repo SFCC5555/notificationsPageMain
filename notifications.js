@@ -169,6 +169,10 @@ function renderNotifications()
             messageCard.setAttribute("class","inactive");
         }
 
+        if (notification.picture=="") {
+            pictureCard.setAttribute("class","inactive");
+        }
+
         if (notification.status=="Read") {
             notificationCard.setAttribute("class","notificationRead");
             statusCard.setAttribute("class","inactive");
