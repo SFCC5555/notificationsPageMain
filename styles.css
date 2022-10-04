@@ -73,6 +73,24 @@ nav div {
   display: flex;
 }
 
+.notificationsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.notification {
+  width: 100%;
+  background-color: var(--veryLightGrayishBlue);
+  border-radius: 5px;
+}
+
+
+.notification2 {
+  width: 100%;
+  background-color: var(--lightGrayishBlue1);
+  border-radius: 5px;
+}
+
 .attribution { 
   font-size: 11px; 
   text-align: center; 
